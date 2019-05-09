@@ -9,15 +9,21 @@
   </head>
   <body>
     <canvas class="canvas"></canvas>
-
-
-
-    <div class="ui">
+    <div display:none>
+ <div class="help">?</div> 
+ <input class="ui-input" type="text" />
+      <span class="ui-return">↵</span>
+      </div>
+      <div class="ui">
     </div>
-<!--     <audio controls> -->
+  <audio autoplay controls style="display:none" id="aaa">
   <source src="test3.mp3" type="audio/mpeg">
-<!-- </audio> -->
-    <div class="overlay">
+ </audio>
+    <script>
+        aaa.play()
+    </script>
+ 
+ <div class="overlay">
       <span class="twitter-share">
       <script type="text/javascript"  src="https://js.users.51.la/19524057.js"></script>
         <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none">Tweet</a>
