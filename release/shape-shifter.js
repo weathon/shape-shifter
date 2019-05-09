@@ -9,7 +9,7 @@
 var S = {
   init: function () {
     var action = window.location.href,
-        i = action.indexOf('?a=');
+        i = "?a=#circle%2025|||3|2|1|0|Can|you|go|to|the|prom|with|me?|Please!";//action.indexOf('?a=');
 
     S.Drawing.init('.canvas');
     S.ShapeBuilder.init();
