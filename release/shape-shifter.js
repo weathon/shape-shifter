@@ -19,7 +19,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('#circle%2025|||3|2|1|0|Can|you|go|to|the|prom|with|me?|Please!');
+      S.UI.simulate('#circle 25|||3|2|1|0|Can|you|go|to|the|prom|with|me?|Please!');
     }
 
     S.Drawing.loop(function () {
