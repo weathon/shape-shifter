@@ -19,7 +19,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('⬛|||3|2|1|0|Can|you|go|to|the|prom|with|me?|Please!');
+      S.UI.simulate('⬛|||3|2|1|0|Can|you|go|to|the|prom|with|me?|Please!|:)|:}|:D|:O');
     }
 
     S.Drawing.loop(function () {
